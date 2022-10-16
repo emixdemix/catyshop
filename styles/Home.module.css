@@ -150,8 +150,26 @@
   margin-top: 40px;
 }
 
+.slideStyle {
+  width: 350px;
+  height: 250px;
+}
+
 .modalStyledModalBody {
   padding-top: 10px;
+}
+
+.eachSlideEffect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-size: contain;
+}
+
+.eachSlideEffect span {
+  display: none;
 }
 
 .modalStyledModalHeader {

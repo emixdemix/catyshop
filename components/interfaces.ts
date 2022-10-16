@@ -10,3 +10,8 @@ export interface Cart {
 export interface FieldValue {
     [key: string]: string
 }
+
+export interface SlideImage {
+        url: string
+        caption: string
+}
