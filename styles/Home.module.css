@@ -108,6 +108,77 @@
   margin-left: 0.5rem;
 }
 
+.formstyles {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.selectstyles {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.inputbox {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputstyle {
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thumbsUp {
+  width: 200px;
+} 
+
+.summary {
+  margin-top: 40px;
+}
+
+.modalStyledModalBody {
+  padding-top: 10px;
+}
+
+.modalStyledModalHeader {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.modalStyledModalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalStyledModal {
+  background: white;
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 15px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
